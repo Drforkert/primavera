@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Primavera</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="nav navbar bg-light navbar-light navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Pizzer<span class="spanwhite">ia Prim</span><span class="spanred">avera</span></a>
+            <a class="navNumber" href="tel:02921 3690590">02921/3690590</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <i class="fas fa-bars" aria-label="Navigation"></i> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="#about" class="nav-link">Über uns</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="menu.html" class="nav-link">Menü</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="team.html" class="nav-link">Team</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="angebote.html" class="nav-link">Angebote</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="gallery.html" class="nav-link">Galerie</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000" data-touch="false">
+            <div class="carousel-inner">
+                <div class="swiper-container homeSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-swiper-autoplay="7500">
+                           <h1 class="sw-header">Pizzeria Primavera</h1>
+                        </div>                
+                        <div class="swiper-slide" data-swiper-autoplay="7500">
+                           <h1 class="sw-header">Benvenuto!</h1>
+                        </div>
+                        <div class="swiper-slide" data-swiper-autoplay="7500">
+                           <h1 class="sw-header">Herzlich Willkommen bei Pizzeria Primavera</h1>
+                        </div>
+                        <div class="swiper-slide" data-swiper-autoplay="7500">
+                           <h1 class="sw-header">Herzlich Willkommen bei Pizzeria Primavera</h1>
+                        </div>
+                        <div class="swiper-slide" data-swiper-autoplay="7500">
+                           <h1 class="sw-header">Herzlich Willkommen bei Pizzeria Primavera</h1>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="assets/Pizza.jpeg" alt="bob">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="assets/pasta.jpeg" alt="bob">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="assets/insalata.jpeg" alt="bob">
+                </div>
+            </div>
+            <a href="#carousel" class="carousel-control-prev" aria-label="letzte" role="button" data-slide="prev">
+                <span class="fas fa-chevron-left fa-2x"></span>
+            </a>
+            <a href="#carousel" class="carousel-control-next" aria-label="Nächste" role="button" data-slide="next">
+                <span class="fas fa-chevron-right fa-2x"></span>
+            </a>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row align-items-lg-center mt-5">
+                <div class="col-12 col-md-6 col-lg-6 text-center text-md-left">
+                    <div class="section-heading mb-3">
+                        <h1 class="display-4">Unsere Geschichte</h1>
+                    </div>
+                    <p class="lead text-black">Herzlich willkommen bei der Pizzeria Primavera,
+                    seit 2007 versorgt unser Team an der Niederbergheimer Str. nun schon Soest und Umgebung mit leckerer italienischer Küche.
+                    Unser Bestreben ist es, keinen Gast hungrig nach Hause gehen zu lassen.
+                    Besuchen Sie uns doch einmal und machen Sie sich ein Bild von der Qualität und Frische unserer Speisen.
+                    Und wenn Sie einmal nicht vorbeikommen möchten, so liefern wir Ihnen selbstverständlich alle Gerichte auch nach Hause!</p>
+                    <a type="button" class="btn btn-danger btn-lg" href="angebote.html">Angebote</a>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-left d-flex mt-5" >
+                    <div class="swiper-container aboutSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/boss.JPG" class="img-fluid" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/front.JPG" class="img-fluid" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/interieur.JPG" class="img-fluid" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/work.JPG" class="img-fluid" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/frontshot.JPG" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination aboutSwiper"></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="info" class="info mt-5">
+        <div class="border-top border-success w-100 mx-auto my-3">
+        <div class="container pt-5">
+            <div class="row text-center">
+                <div class="col-12 col-md-3 mb-4 mb-md-0 p-0">
+                    <div class="shop-info">
+                        <i class="fas fa-clock mb-3"></i>
+                        <h1 class="mb-4">Öffnungszeiten</h1>
+                        <p>Mittags <br> 
+                            Mo, Mi, Do, Fr&nbsp; 12:00 - 14:30 Uhr <br>
+                            Abends <br>
+                            17:00 - 22:30 Uhr
+                        </p>
+                        <p>Sa, So und Feiertage 16:00 - 22:30 Uhr</p>
+                        <h2 class="fat-paragraph">(Letzte Bestellung um 22:15 Uhr)</h2>
+                        <h2 class="fat-info">Dienstag Ruhetag <br>
+                        (auch Feiertags)</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4 mb-md-0 p-0">
+                    <div class="shop-info">
+                        <a href="map.html"><i class="fas fa-map-marked-alt mb-3"></i></a>
+                        <h1 class="mb-4">Standort</h1>
+                        <adress>
+                            <a href="map.html" class="fat-anker">Niederbergheimer Str. 46</a><br>
+                            Soest 59494<br>
+                            Deutschland
+                        </adress>
+                        <p class="specific">Inhaber Gianluca Vedovelli</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4 mb-md-0 p-0">
+                    <div class="shop-info">
+                        <i class="fa fa-mobile-alt mb-3"></i>
+                        <h1 class="mb-4">Erreichbar unter</h1>
+                        <p>Telefon: 02921/3690590</p>
+                        <p>Telefon: 02921/3690035</p>
+                        <p>Notfallnummer: 0174/6958729 <br>
+                           (Bitte nur bei Festnetzausfall)</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-4 mb-md-0 p-0">
+                    <div class="shop-info">
+                        <i class="fas fa-car mb-3"></i>
+                        <h1 class="mb-4">Pizzataxi</h1>
+                        <p>Mo, Mi, Do, Fr 17:00 - 22:15 Uhr</p>
+                        <p>Sa, So und Feiertage 16:00 - 22:15 Uhr</p>
+                        <h2 class="fat-paragraph">(Letzte Annahme um 22:15 Uhr)</h2>
+                        <h2 class="ordering"><strong>Wir liefern </strong><br>
+                        unter 20€ + 2€ mehr <br>
+                        unter 30€ + 1€ mehr <br>
+                        außerhalb Soest + 4€ bis 6€ </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="border-top border-success w-100 mx-auto my-3">
+    </section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/allSwipers.js"></script>
+<script src="js/main.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
