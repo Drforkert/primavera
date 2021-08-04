@@ -20,17 +20,18 @@ var swiper = new Swiper(".teamSwiper", {
         delay: 6000,
     },
     disableOnInteraction: false,
-    effect: "cube",
-    cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.5,
+    effect: "coverflow",
+    coverFlowEffect: {
+        rotate: 50,
+        stretch: 20,
+        depth:50, 
+        modifier: 3,
+        slideShadows:true,
     },
 
     pagination: {
-        el: 'pagination',
-        clickable: false,
+        el: '.teamSwiper',
+        clickable: true,
     },
     
     navigation: {

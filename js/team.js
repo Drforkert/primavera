@@ -6,12 +6,15 @@ var swiper = new Swiper(".teamSwiper", {
         delay: 6000,
     },
     disableOnInteraction: false,
-    effect: "cube",
-    cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.5,
+    effect: "coverflow",
+    grabCursor: true,
+    slidesPerView: auto,
+    centeredSlides: true,
+    coverFlowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth:100, 
+        slideShadows:true,
     },
 
     pagination: {

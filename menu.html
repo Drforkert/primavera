@@ -18,11 +18,23 @@
     <nav class="nav navbar bg-light navbar-light navbar-expand-lg sticky-top">
         <div class="container">
             <a href="index.html" class="navbar-brand">Pizzer<span class="spanwhite">ia Prim</span><span class="spanred">avera</span></a>
-            <a class="navNumber" href="">02921/390590</a>
+            <a class="navNumber" href="tel:02921 3690590">02921/3690590</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <i class="fas fa-bars" aria-label="Navigation"></i> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="angebotenew.html" class="nav-link">Angebote</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="team.html" class="nav-link">Team</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="map.html" class="nav-link">Standort</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive"><a href="galleryrefined.html" class="nav-link">Galerie</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <section id="menu">
+    <section id="menu" class="menu">
+        <img src="assets/italy.jpg" alt="bob" class="img-fluid menubg" style="display:flex; position: absolute; top: -20px;; width: 100%; z-index: -1; background-repeat: no-repeat; background-attachment: fixed;">
         <div class="heading text-center mt-5">
             <h1 class="display-4">
                 Unser Menü
@@ -33,9 +45,9 @@
                 <div class="col-lg-4 col-md-6 py-5">
                     <h1 class="text-center tableText">Pizza</h1>
                     <div class="wrapper">
-                        <img class="img-fluid tableImg" src="assets/Pizza.jpeg" alt="bob">
+                        <a id="toggleTwo"><img class="img-fluid tableImg" src="assets/Pizza.jpeg" alt="bob"></a>
                     </div>
-                    <div class="scrollable">
+                    <div class="scrollable" id="scrollableTwo">
                         <table class="table pizzaborder" cellspacing="0" cellpadding="0">
                             <thead>
                                 <tr>
@@ -55,7 +67,7 @@
                                     <td>12.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Tomatensauce, Käse</td>
                                 </tr>
                                 <tr>
                                     <td>2.</td>
@@ -65,7 +77,7 @@
                                     <td>17.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Thunfisch</td>
                                 </tr>
                                 <tr>
                                     <td>3.</td>
@@ -75,7 +87,7 @@
                                     <td>15.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Champignons</td>
                                 </tr>
                                 <tr>
                                     <td>4.</td>
@@ -86,7 +98,7 @@
                                 </tr>
                                 <tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Schinken</td>
                                 </tr>
                                     <td>5.</td>
                                     <td>Pizza Salami</td>
@@ -95,7 +107,7 @@
                                     <td>15.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Salami</td>
                                 </tr>
                                 <tr>
                                     <td>6.</td>
@@ -105,7 +117,7 @@
                                     <td>16.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Sardellen, Oliven, Knoblauch</td>
                                 </tr>
                                 <tr>
                                     <td>7.</td>
@@ -115,7 +127,7 @@
                                     <td>16.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">frische Tomaten, Mozzarella, Oregano</td>
                                 </tr>
                                 <tr>
                                     <td>8.</td>
@@ -125,7 +137,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Thunfisch, Zwiebeln</td>
                                 </tr>
                                 <tr>
                                     <td>9.</td>
@@ -135,7 +147,7 @@
                                     <td>18.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Parmaschinken</td>
                                 </tr>
                                 <tr>
                                     <td>10.</td>
@@ -145,7 +157,7 @@
                                     <td>16.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Ananas, Schinken</td>
                                 </tr>
                                 <tr>
                                     <td>11.</td>
@@ -154,7 +166,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">gefüllt mit Salami, Schinken, Champignons</td>
                                 </tr>
                                 <tr>
                                     <td>12.</td>
@@ -164,7 +176,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">scharfe Peperoni, Paprika, Salami</td>
                                 </tr>
                                 <tr>
                                     <td>13.</td>
@@ -174,7 +186,7 @@
                                     <td>15.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">milde Peperoni</td>
                                 </tr>
                                 <tr>
                                     <td>14.</td>
@@ -184,7 +196,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Bolognesesauce, Käse, Nudeln</td>
                                 </tr>
                                 <tr>
                                     <td>15.</td>
@@ -194,7 +206,7 @@
                                     <td>15.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Bolognesesauce, Käse</td>
                                 </tr>
                                 <tr>
                                     <td>16.</td>
@@ -204,7 +216,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">gekochtes Ei, Artischocken, Champignons, Schinken</td>
                                 </tr>
                                 <tr>
                                     <td>17.</td>
@@ -214,7 +226,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Schinken, Salami</td>
                                 </tr>
                                 <tr>
                                     <td>18.</td>
@@ -224,7 +236,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Meeresfrüchte, Knoblauch</td>
                                 </tr>
                                 <tr>
                                     <td>19.</td>
@@ -234,7 +246,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Krabben, Knoblauch</td>
                                 </tr>
                                 <tr>
                                     <td>20.</td>
@@ -244,7 +256,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Thunfisch, Salami, Champignons</td>
                                 </tr>
                                 <tr>
                                     <td>21.</td>
@@ -254,7 +266,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Salami, Schinken, Champignons</td>
                                 </tr>
                                 <tr>
                                     <td>22.</td>
@@ -264,7 +276,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Salami, Champignons</td>
                                 </tr>
                                 <tr>
                                     <td>23.</td>
@@ -274,7 +286,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Schinken, Champignons</td>
                                 </tr>
                                 <tr>
                                     <td>24.</td>
@@ -284,7 +296,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">4 Sorten Käse</td>
                                 </tr>
                                 <tr>
                                     <td>25.</td>
@@ -294,7 +306,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Knoblauch, Spinat</td>
                                 </tr>
                                 <tr>
                                     <td>26.</td>
@@ -304,7 +316,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Spargel, Schinken</td>
                                 </tr>
                                 <tr>
                                     <td>27.</td>
@@ -314,7 +326,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Thunfisch, Zwiebeln, Schinken, Artischocken</td>
                                 </tr>
                                 <tr>
                                     <td>28.</td>
@@ -324,7 +336,7 @@
                                     <td>15.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Paprika</td>
                                 </tr>
                                 <tr>
                                     <td>129.</td>
@@ -334,7 +346,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Brokkoli, Paprika, Mais</td>
                                 </tr>
                                 <tr>
                                     <td>130.</td>
@@ -344,7 +356,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Schinken, Champignons, Artischocken, Paprika</td>
                                 </tr>
                                 <tr>
                                     <td>132.</td>
@@ -354,7 +366,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Mais, Hähnchenbrust</td>
                                 </tr>
                                 <tr>
                                     <td>133.</td>
@@ -364,7 +376,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Thunfisch, Ananas</td>
                                 </tr>
                                 <tr>
                                     <td>134.</td>
@@ -374,7 +386,7 @@
                                     <td>15.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Zwiebeln</td>
                                 </tr>
                                 <tr>
                                     <td>135.</td>
@@ -384,7 +396,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Eisbergsalat, Tomaten, Gurken, Mais, Joghurt</td>
                                 </tr>
                                 <tr>
                                     <td>136.</td>
@@ -394,7 +406,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">frische Tomaten, Rucola, Parmaschinken, Parmesan</td>
                                 </tr>
                                 <tr>
                                     <td>137.</td>
@@ -404,7 +416,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Birne, Gorgonzolakäse</td>
                                 </tr>
                                 <tr>
                                     <td>138.</td>
@@ -414,7 +426,7 @@
                                     <td>18.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Spinat, Gorgonzolakäse</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -423,9 +435,9 @@
                 <div class="col-lg-4 col-md-6 py-5">
                     <h1 class="text-center tableText">Pasta</h1>
                     <div class="wrapper">
-                        <img class="img-fluid tableImg" src="assets/pasta.jpeg" alt="bob">
+                        <a class="menuButton" id="toggleThree"><img class="img-fluid tableImg" src="assets/pasta.jpeg" alt="bob"></a>
                     </div>
-                    <div class="scrollable">
+                    <div class="scrollable" id="scrollableThree">
                         <table class="table pastaborder">
                             <thead>
                                 <tr>
@@ -441,7 +453,7 @@
                                     <td>5.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Spaghetti mit Tomatensauce</td>
                                 </tr>
                                 <tr>
                                     <td>46.</td>
@@ -449,7 +461,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Spaghetti mit Bolognesesauce</td>
                                 </tr>
                                 <tr>
                                     <td>47.</td>
@@ -457,7 +469,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Knoblauch, scharfe Peperoni, Olivenöl</td>
                                 </tr>
                                 <tr>
                                     <td>48.</td>
@@ -465,7 +477,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Meeresfrüchte, Tomatensauce, Knoblauch</td>
                                 </tr>
                                 <tr>
                                     <td>49.</td>
@@ -473,7 +485,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Sahnesauce, Schinken</td>
                                 </tr>
                                 <tr>
                                     <td>50.</td>
@@ -481,7 +493,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Champignons, Erbsen, Schinken, Sahnesauce, Tomatensauce</td>
                                 </tr>
                                 <tr>
                                     <td>51.</td>
@@ -489,7 +501,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Tomatensauce, frische Tomaten, Mozzarella</td>
                                 </tr>
                                 <tr>
                                     <td>52.</td>
@@ -497,7 +509,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Tomatensauce, Knoblauch, Peperoni(scharf), Oliven</td>
                                 </tr>
                                 <tr>
                                     <td>53.</td>
@@ -505,7 +517,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Sahnesauce</td>
                                 </tr>
                                 <tr>
                                     <td>54.</td>
@@ -513,7 +525,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">in Sahnesauce, Knoblauch, mit Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>55.</td>
@@ -521,7 +533,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">vier Sorten Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>56.</td>
@@ -529,7 +541,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Bolognesesauce mit Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>57.</td>
@@ -537,7 +549,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Sahnesauce, Schinken</td>
                                 </tr>
                                 <tr>
                                     <td>58.</td>
@@ -545,7 +557,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Tomatensauce</td>
                                 </tr>
                                 <tr>
                                     <td>59.</td>
@@ -553,7 +565,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Bolognesesauce</td>
                                 </tr>
                                 <tr>
                                     <td>60.</td>
@@ -561,7 +573,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Tortellini, Lasagne, Penne, Bolognesesauce mit Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>61.</td>
@@ -569,7 +581,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>62.</td>
@@ -577,7 +589,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>63.</td>
@@ -585,7 +597,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Sahnesauce mit Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>64.</td>
@@ -593,7 +605,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Tomatensauce und Knoblauch</td>
                                 </tr>
                                 <tr>
                                     <td>65.</td>
@@ -601,7 +613,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Tomaten und Sahnesauce</td>
                                 </tr>
                                 <tr>
                                     <td>66.</td>
@@ -609,7 +621,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Käse überbacken</td>
                                 </tr>
                                 <tr>
                                     <td>67.</td>
@@ -617,7 +629,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Brokkoli, Erbsen, Spinat, Champignons</td>
                                 </tr>
                                 <tr>
                                     <td>68.</td>
@@ -625,7 +637,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Sahnesauce und Käse überbacken</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -634,9 +646,9 @@
                 <div class="col-lg-4 col-md-6 py-5">
                     <h1 class="text-center tableText">Insalata</h1>
                     <div class="wrapper">
-                        <img class="img-fluid tableImg" src="assets/insalata.jpeg" alt="bob">
+                        <a class="menuButton" id="toggleFour"><img class="img-fluid tableImg" src="assets/insalata.jpeg" alt="bob"></a>
                     </div>
-                    <div class="scrollable insalataborder">
+                    <div class="scrollable" id="scrollableFour">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -652,7 +664,7 @@
                                     <td>4.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais</td>
                                 </tr>
                                 <tr>
                                     <td>35.</td>
@@ -660,7 +672,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, Thunfisch, Zwiebeln, Ei</td>
                                 </tr>
                                 <tr>
                                     <td>36.</td>
@@ -668,7 +680,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Eisbergsalat, Tomaten, Mozzarella, Oliven</td>
                                 </tr>
                                 <tr>
                                     <td>37.</td>
@@ -676,7 +688,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, Champignons, Schinken, Weißkäse</td>
                                 </tr>
                                 <tr>
                                     <td>38.</td>
@@ -684,7 +696,7 @@
                                     <td>6.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, Schinken, Zwiebeln</td>
                                 </tr>
                                 <tr>
                                     <td>39.</td>
@@ -692,7 +704,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Weißkäse, scharfe Peperoni, Oliven</td>
                                 </tr>
                                 <tr>
                                     <td>41.</td>
@@ -700,7 +712,7 @@
                                     <td>5.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Eisbergsalat, Tomaten, Zwiebeln</td>
                                 </tr>
                                 <tr>
                                     <td>42.</td>
@@ -708,7 +720,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, Hähnchenbruststreifen</td>
                                 </tr>
                                 <tr>
                                     <td>44.</td>
@@ -716,7 +728,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, milde Peperoni, Artischocken, Weißkäse</td>
                                 </tr>
                                 <tr>
                                     <td>141.</td>
@@ -724,7 +736,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, Käse</td>
                                 </tr>
                                 <tr>
                                     <td>142.</td>
@@ -732,7 +744,7 @@
                                     <td>7.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, Krabben</td>
                                 </tr>
                                 <tr>
                                     <td>143.</td>
@@ -740,7 +752,7 @@
                                     <td>5.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Eisbergsalat, Gurken</td>
                                 </tr>
                                 <tr>
                                     <td>144.</td>
@@ -748,7 +760,7 @@
                                     <td>7.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Grüner Salat, Tomaten, Gurken, Mais, Ananas, Schinken</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -757,9 +769,9 @@
                 <div class="col-lg-4 col-md-6 py-5">
                     <h1 class="text-center tableText">Antipasti</h1>
                     <div class="wrapper">
-                        <img class="img-fluid tableImg" src="assets/antipasti1.jpeg" alt="bob">
+                        <a class="menuButton" id="toggleOne"><img class="img-fluid tableImg" src="assets/antipasti1.jpeg" alt="bob"></a>
                     </div>
-                    <div class="scrollable antipastiborder">
+                    <div class="scrollable" id="scrollable">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -775,7 +787,7 @@
                                     <td>8.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">versch. Sorten Käse und 4 Pizzabrötchen</td>
                                 </tr>
                                 <tr>
                                     <td>30.</td>
@@ -783,7 +795,7 @@
                                     <td>6.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">versch. Käsesorten, versch. Wurstsorten und 4 Pizzabrötchen</td>
                                 </tr>
                                 <tr>
                                     <td>32.</td>
@@ -791,7 +803,7 @@
                                     <td>9.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">versch. Käsesorten, versch. Wurstsorten, italienisches Gemüse und 4 Pizzabrötchen</td>
                                 </tr>
                                 <tr>
                                     <td>100.</td>
@@ -799,7 +811,7 @@
                                     <td>2.20€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Knoblauchsoße</td>
                                 </tr>
                                 <tr>
                                     <td>101.</td>
@@ -807,7 +819,7 @@
                                     <td>0.50€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">Hausgemacht</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -816,9 +828,9 @@
                 <div class="col-lg-4 col-md-6 py-5">
                     <h1 class="text-center tableText">Pesce</h1>
                     <div class="wrapper">
-                        <img class="img-fluid tableImg" src="assets/Garnelen.jpeg" alt="bob">
+                        <a class="menuButton" id="toggleFive"><img class="img-fluid tableImg" src="assets/Garnelen.jpeg" alt="bob"></a>
                     </div>
-                    <div class="scrollable pesce">
+                    <div class="scrollable" id="scrollableFive">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -834,7 +846,7 @@
                                     <td>16.00€</td>
                                 </tr>
                                 <tr class="blankRow">
-                                    <td colspan="5" rowspan="1">Lorem ipsum dolor sit amet.</td>
+                                    <td colspan="5" rowspan="1">mit Knoblauchsauce, gemischter Salat und 4 Pizzabrötchen</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -843,9 +855,9 @@
                 <div class="col-lg-4 col-md-6 py-5">
                     <h1 class="text-center tableText">Bevande</h1>
                     <div class="wrapper">
-                        <img class="img-fluid tableImg" src="assets/beverage.jpg" alt="bob">
+                        <a class="menuButton" id="toggleSix"><img class="img-fluid tableImg" src="assets/beverage.jpg" alt="bob"></a>
                     </div>
-                    <div class="scrollable">
+                    <div class="scrollable" id="scrollableSix">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -926,6 +938,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/menubuttons.js"></script>
 <script src="js/team.js"></script>
 <script src="js/allSwipers.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
